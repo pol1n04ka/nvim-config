@@ -15,4 +15,6 @@ vim.lsp.enable({
 	"oxlint",
 	"ts_ls",
 	"rust_analyzer",
+	"zls",
+	"taplo",
 })

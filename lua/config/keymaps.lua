@@ -120,12 +120,14 @@ map("i", ".", ".<c-g>u")
 map("i", ";", ";<c-g>u")
 
 -- Auto-close pairs (simple, no plugin needed)
-map("i", "`", "``<left>")
-map("i", '"', '""<left>')
-map("i", "(", "()<left>")
-map("i", "[", "[]<left>")
-map("i", "{", "{}<left>")
-map("i", "<", "<><left>")
+-- Don't need it
+--
+-- map("i", "`", "``<left>")
+-- map("i", '"', '""<left>')
+-- map("i", "(", "()<left>")
+-- map("i", "[", "[]<left>")
+-- map("i", "{", "{}<left>")
+-- map("i", "<", "<><left>")
 -- Note: Single quotes commented out to avoid conflicts in some contexts
 -- map("i", "'", "''<left>")
 
